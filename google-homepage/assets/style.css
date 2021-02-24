@@ -2,12 +2,12 @@ body {
   font-family: Arial, Helvetica;
 }
 
-nav {
+nav, footer {
     display: flex;
     justify-content: space-between;
 }
 
-nav ul {
+nav ul, footer ul {
   list-style-type: none;
   display: flex;
   margin-left: 25px;
@@ -15,7 +15,7 @@ nav ul {
   padding: 0px;
 }
 
-nav li {
+nav li, footer li {
   margin: 5px;
   font-size: 14px;
 
