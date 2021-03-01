@@ -16,6 +16,8 @@ alert(message); // Hello!
 
 Being a "constant" just means that a variable’s value never changes. But there are constants (A_CONSTANT_NAME) that are known prior to execution (like a hexadecimal value for red) and there are constants (aConstantName) that are *calculated* in run-time, during the execution, but do not change after their initial assignment.
 
+[Why You Shouldn’t Use var Anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
+
 ### Operators
 
 Notes from [javascript.info](https://javascript.info/operators)
