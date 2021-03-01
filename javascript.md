@@ -51,3 +51,15 @@ null + 1 = 1 // (5)
 undefined + 1 = NaN // (6)
 " \t \n" - 2 = -2 // (7)
 ```
+
+### Data Types
+Backticks can be used to embed variales and expressions into a string
+```javascript
+let name = "John";
+
+// embed a variable
+alert( `Hello, ${name}!` ); // Hello, John!
+
+// embed an expression
+alert( `the result is ${1 + 2}` ); // the result is 3
+```
