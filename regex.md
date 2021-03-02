@@ -34,7 +34,7 @@
 
 `[0-9]{5,}`: match 5 or over
 
-## Meta-characters
+## Meta Characters
 
 `\d` match any digit character (same as [0-9])
 
