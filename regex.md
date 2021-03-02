@@ -57,3 +57,11 @@
 `?` The zero or one quantifier (makes a preceding char optional).  For example, `/hello?/` matches hello or hell
 `.` Any character (except newline)
 `*` The 0 or more quantifier (bit like +)
+
+## Starting and Ending Patterns
+
+`/^` Start of regular expression
+
+`$/` End of regular expression
+
+For example. `/^[a-z]{5}/` will only match 5 letters
