@@ -65,3 +65,9 @@
 `$/` End of regular expression
 
 For example. `/^[a-z]{5}/` will only match 5 letters
+
+## Alternate Characters
+
+| means or,  for example `/p|t/` matches p or t
+
+(|) encloses the or, for example `/(p|t)yre/` matches pyre or tyre
