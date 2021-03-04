@@ -8,31 +8,31 @@
 /<regex/gi
 ```
 
-`g` modifier: global. All matches (don't return after first match)
-`i` modifier: insensitive. Case insensitive match (ignores case of [a-zA-Z])
+`g` global modifier, all matches (don't return after first match)
+`i` case insensitive match (ignores case of [a-zA-Z])
 
 ## Character Sets
 
-`[ng]inja`: matches ninja or ginja
-`[^p]inja`: match any character other than p
+`[ng]inja` matches ninja or ginja
+`[^p]inja` match any character other than p
 
 ## Ranges
 
-`[a-z]`: match the lower case alphabet only
-`[a-zA-Z]`: match upper and lower case alphabet
-`[0-9]`: match any number
+`[a-z]` match the lower case alphabet only
+`[a-zA-Z]` match upper and lower case alphabet
+`[0-9]` match any number
 
 ## Repeating Characters
 
-`[0-9]+`: match 1 to n times
+`[0-9]+` match 1 to n times
 
-`[0-9]{11}`: match 11 times
+`[0-9]{11}` match 11 times
 
-`[a-z]{11}`: as above, with letters
+`[a-z]{11}` as above, with letters
 
-`[a-z]{5,8}`: match between 5 and 8 letters
+`[a-z]{5,8}` match between 5 and 8 letters
 
-`[0-9]{5,}`: match 5 or over
+`[0-9]{5,}` match 5 or over
 
 ## Meta Characters
 
