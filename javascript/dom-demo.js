@@ -36,3 +36,9 @@ part3.appendChild(part3Para);
 
 // Apply part3 to container
 container.appendChild(part3);
+
+// Event method 3
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', function(e) {
+    e.target.style.background = 'Blue';
+});
